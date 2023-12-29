@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    margin: 64px auto 64px;
+    width: 626px;
+}
+
+#mulher{
+    width: 350px;
+    height: 238px;
+}
+
+#footer{
+    height: 176px;
+}
+
+h1{
+    margin: 32px auto 16px;
+    font-family: 'Dosis', sans-serif;
+    line-height: auto;
+    font-size: 32px;
+    font-weight: normal;
+    color: #3F3D56;
+
+    width: 494px;
+}
+
+h1 span{
+    color: #EE24FF;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #828282;
+
+    width: 540px;
+    margin: 0px auto 32px;
+}
+
+p span{
+    font-weight: bold;
+    color: #3F3D56;
+}
+
+#footer a {  
+  font-family: 'Open Sans', sans-serif;
+  color: #3F3D56;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 144%;
+  text-decoration: none;
+}
+
+#footer a + a{
+    margin-left: 42px;
+}
+
+.line{
+    margin: auto;
+    margin-bottom: 16px;
+    width: 391px;
+    border: 1px solid #ECEFF2;
+}
+
+#footer img{
+    width: 100%;
+    margin-top: 41px;
+    margin-bottom: 0px;
+}
+
+#fav{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
